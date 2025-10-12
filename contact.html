@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - My Clothing Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Clothing Store</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to make an order? Send us a message below 👇</p>
+
+    <div class="contact-container">
+      <form id="contactForm" action="https://formspree.io/f/your_form_id" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <h3>Reach Us</h3>
+        <p>📍 kwara, Nigeria</p>
+        <p>📞 +234 906 332 0838</p>
+        <p>📧 abdulkareemabdulkareem778@gmail.com</p>
+        <a href="https://wa.me/2349063320838/?text=Hello%2C%20I%27d%20like%20to%20make%20an%20order!" target="_blank" class="btn">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 SANKEM Store | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
