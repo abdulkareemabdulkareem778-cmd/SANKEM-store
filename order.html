@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Now - SANKEM Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>SANKEM Store</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="contact.html">Contact</a>
+      <a href="order.html" class="active">Order</a>
+    </nav>
+  </header>
+
+  <section class="order">
+    <h2>Place Your Order</h2>
+    <p>Fill in your details below to make an order 👇</p>
+
+    <form id="orderForm" action="https://formspree.io/f/your_form_id" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="tel" name="phone" placeholder="Phone Number (e.g. +234...)" required>
+
+      <select name="product" required>
+        <option value="">-- Select Product --</option>
+        <option value="Men's Shirt">Men's Shirt</option>
+        <option value="Ladies Gown">Ladies Gown</option>
+        <option value="Unisex Trouser">Unisex Trouser</option>
+        <option value="Custom Outfit">Custom Outfit</option>
+      </select>
+
+      <select name="size" required>
+        <option value="">-- Select Size --</option>
+        <option value="Small (S)">Small (S)</option>
+        <option value="Medium (M)">Medium (M)</option>
+        <option value="Large (L)">Large (L)</option>
+        <option value="Extra Large (XL)">Extra Large (XL)</option>
+      </select>
+
+      <input type="number" name="quantity" min="1" value="1" required>
+
+      <textarea name="message" placeholder="Any additional details (e.g. color, delivery location)" rows="4"></textarea>
+
+      <button type="submit" class="btn">Submit Order</button>
+    </form>
+
+    <p>or</p>
+
+    <a href="https://wa.me/2348012345678?text=Hello!%20I%20want%20to%20place%20an%20order%20for%20your%20clothing." 
+       target="_blank" class="btn">
+       Order via WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2025 SANKEM Store | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
