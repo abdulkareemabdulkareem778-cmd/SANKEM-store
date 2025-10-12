@@ -190,3 +190,19 @@ form button {
 form button:hover {
   background: #ff3385;
 }
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn.secondary {
+  background: transparent;
+  color: #ff0066;
+  border: 2px solid #ff0066;
+}
+
+.btn.secondary:hover {
+  background: #ff0066;
+  color: white;
+}

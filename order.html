@@ -6,6 +6,15 @@
   <title>Order Now - SANKEM Store</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<script>
+  // Get the product name from the URL (e.g. ?product=Men's%20Shirt)
+  const params = new URLSearchParams(window.location.search);
+  const productName = params.get('product');
+  if (productName) {
+    document.querySelector('select[name="product"]').value = productName;
+  }
+</script>
+
 <body>
   <header>
     <h1>SANKEM Store</h1>
