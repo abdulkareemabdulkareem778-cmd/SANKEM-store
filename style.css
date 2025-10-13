@@ -9,7 +9,7 @@ header {
 /* Navigation menu */
 nav ul {
   list-style: none;
-  margin-right: 20px;
+  margin: 20px;
   padding: 0;
   display: flex;              /* arrange items in a row */
   justify-content: center;    /* center them horizontally */
@@ -32,7 +32,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background: #ff0066;
+  background: #5e0808;
 }
 
 body {
