@@ -9,7 +9,7 @@ header {
 /* Navigation menu */
 nav ul {
   list-style: none;
-  margin: 20px;
+  margin-right: 20px;
   padding: 0;
   display: flex;              /* arrange items in a row */
   justify-content: center;    /* center them horizontally */
