@@ -61,8 +61,8 @@ nav a {
   padding: 80px 20px;
   background: linear-gradient(120deg, #ff7b00, #ff0066);
   color: white;
-  margin-left: 10px;
-  width: 96vw;
+  margin: 20px auto;
+  width: 300px;
 }
 
 .btn {
