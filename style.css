@@ -134,7 +134,7 @@ footer {
 
 .contact p {
   margin-bottom: 40px;
-  color: #fcfcfc;
+  color: #f7f4f4;
 }
 
 .contact-container {
@@ -143,7 +143,7 @@ footer {
   gap: 30px;
   max-width: 900px;
   margin: 0 auto;
-  background: white;
+  background: rgb(247, 245, 245);
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -283,4 +283,7 @@ form button:hover {
 
 .send-btn:hover {
   background: #e6005c;
+}
+.contact-info p {
+color: #555;
 }
