@@ -1,3 +1,10 @@
+.logo {
+  width: 100px;      /* you can adjust size */
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;  /* centers the logo and adds space below */
+}
+
 /* Header section */
 header {
   background: black;
